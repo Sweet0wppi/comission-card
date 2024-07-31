@@ -1,0 +1,138 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal</title>
+    <style>
+        .comic-neue-light {
+            font-family: "Comic Neue", cursive;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .comic-neue-regular {
+            font-family: "Comic Neue", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .comic-neue-bold {
+            font-family: "Comic Neue", cursive;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .comic-neue-light-italic {
+            font-family: "Comic Neue", cursive;
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        .comic-neue-regular-italic {
+            font-family: "Comic Neue", cursive;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .comic-neue-bold-italic {
+            font-family: "Comic Neue", cursive;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        body {
+            background: #17022b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            transition: background-color 0.3s, transform 0.1s;
+        }
+        button:active {
+            background-color: #1b014d;
+            transform: scale(0.95)
+        }
+        .debug {
+            background: #fff;
+            width: 10;
+            height: 10;
+        }
+        .bgred {
+            background: #07070791;
+            width:  27rem;
+            height: 550px;
+            border-style: solid;
+            border-width: 15;
+            border-color: #252525a8;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            flex-direction: column; 
+        }
+        .avatar {
+            width: 100;
+            border-radius: 100%;
+            margin-bottom: 10px;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            flex-direction: column; 
+            margin: 10;
+        }
+        .redesocial {
+            display: flex;
+            flex-direction: row;
+        }
+        .botaosocial {
+            margin-top: 10;
+            background: #21005e;
+            width: 50px;
+            height: 50px;
+            border-style: solid;
+            border-width: 2px;
+            border-color: #0d0030;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+        }
+        .texto1 {
+            color: #e4bcff;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <div style="width: 10;height: 10;margin: 10;background: #fff;" /> -->
+   <div class="bgred">
+       <div class="container"> 
+           <img class="avatar" src="https://passarinho122.carrd.co/assets/images/image04.jpg" alt="Foto do freelancer" srcset="Foto do freelancer">
+           <div class="redesocial">
+               <a target="_blank" href="https://x.com/Sweetswppi">
+                   <button class="botaosocial"> 
+                       <img width="30" src="/assets/twitter.svg" alt="logo twitter" srcset="Logo Twitter">
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/sweet.wppi">
+                    <button class="botaosocial"> 
+                        <img width="30" src="/assets/instagram.svg" alt="logo twitter" srcset="Logo Twitter">
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.tiktok.com/@random_pypo">
+                    <button class="botaosocial"> 
+                        <img width="30" src="/assets/tik-tok.svg" alt="logo twitter" srcset="Logo Twitter">
+                    </button>
+                </a>
+            </div>
+                <p class="texto1 comic-neue-regular-italic">
+                    Freelancer Artist
+                </p>
+        </div>
+   </div> 
+</body>
+</html>
